@@ -40,6 +40,7 @@ public class LoginPage {
     public void login(String username, String password){
         userNameElement.sendKeys(username);
         passwordElement.sendKeys(password);
+        System.out.println();
         loginButtonElement.click();
     }
 
