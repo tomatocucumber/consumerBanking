@@ -41,6 +41,7 @@ public class LoginPage {
         userNameElement.sendKeys(username);
         passwordElement.sendKeys(password);
         System.out.println();
+        System.out.println();
         loginButtonElement.click();
     }
 
