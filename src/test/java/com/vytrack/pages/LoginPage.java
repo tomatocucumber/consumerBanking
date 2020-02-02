@@ -50,6 +50,7 @@ public class LoginPage {
         String password = ConfigurationReader.getProperty("storemanager_password");
         userNameElement.sendKeys(username);
         passwordElement.sendKeys(password);
+        System.out.println("Hello from the outside");
         loginButtonElement.click();
     }
 
