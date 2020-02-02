@@ -51,7 +51,6 @@ public class LoginPage {
         userNameElement.sendKeys(username);
         passwordElement.sendKeys(password);
         System.out.println("Hello from the outside");
-        System.out.println("2+2");
         loginButtonElement.click();
     }
 
